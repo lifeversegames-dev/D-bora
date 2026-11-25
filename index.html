@@ -4,144 +4,665 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#07130e">
-  <meta name="description" content="Um universo encantado dedicado a O Príncipe Cruel e Vivienne.">
-  <title>THE CRUEL PRINCE | Débora</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#07100b">
+
+  <title>The Cruel Prince | The World of Débora</title>
+
+  <meta name="description" content="Entre no universo de O Príncipe Cruel, de Holly Black. Um mundo dedicado a Vivienne e ao Reino das Fadas.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="particles" id="particles"></div>
+  <div id="particles"></div>
+  <div class="noise"></div>
 
-  <header>
-    <a href="#" class="logo">THE <span>FAERIE</span> WORLD</a>
+  <!-- NAVEGAÇÃO -->
 
-    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  <header class="header">
+    <a href="#home" class="brand">
+      <span class="brand-symbol">♛</span>
+      THE CRUEL PRINCE
+    </a>
 
-    <nav id="nav">
-      <a href="#inicio">Início</a>
-      <a href="#livro">O Livro</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+      ☰
+    </button>
+
+    <nav id="navigation">
+      <a href="#home">Início</a>
+      <a href="#story">História</a>
+      <a href="#characters">Personagens</a>
       <a href="#vivienne">Vivienne</a>
-      <a href="#universo">O Reino</a>
+      <a href="#kingdom">Elfhame</a>
+      <a href="#game">Experiência</a>
     </nav>
   </header>
 
   <main>
 
-    <section class="hero" id="inicio">
+    <!-- HERO -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-overlay"></div>
+
       <div class="hero-content reveal">
-        <span class="eyebrow">UM MUNDO DE MAGIA E SEGREDOS</span>
-        <h1>THE CRUEL<br><span>PRINCE</span></h1>
-        <div class="ornament">✧ ━━━━━ ❖ ━━━━━ ✧</div>
-        <p>Entre coroas, espinhos e promessas, existe um reino onde nada é o que parece.</p>
-        <a href="#livro" class="main-button">ENTRAR NO REINO</a>
-        <span class="dedication">Uma experiência criada para Débora ♡</span>
-      </div>
 
-      <div class="hero-decoration">
-        <div class="crown">♛</div>
-        <div class="circle circle-one"></div>
-        <div class="circle circle-two"></div>
-        <span class="leaf leaf-one">❧</span>
-        <span class="leaf leaf-two">❧</span>
-      </div>
-    </section>
-
-    <section class="book-section reveal" id="livro">
-      <span class="eyebrow">A HISTÓRIA</span>
-      <h2>O Príncipe Cruel</h2>
-      <div class="ornament">✧ ━━━ ❖ ━━━ ✧</div>
-
-      <p class="description">
-        No universo criado por Holly Black, o Reino das Fadas
-        esconde beleza, perigos, intrigas e jogos de poder.
-        Um lugar onde a magia é fascinante e a confiança
-        pode ser tão rara quanto uma coroa.
-      </p>
-
-      <div class="book-info">
-        <div><span>OBRA</span><strong>O Príncipe Cruel</strong></div>
-        <div><span>AUTORA</span><strong>Holly Black</strong></div>
-        <div><span>GÊNERO</span><strong>Fantasia</strong></div>
-      </div>
-    </section>
-
-    <section class="luna-section" id="luna">
-      <div class="luna-art reveal">
-        <div class="art-frame">
-          <span class="art-symbol">♛</span>
-          <span class="art-name">V</span>
-          <span class="art-caption">THE WILD HEART</span>
+        <div class="hero-label">
+          ✦ UM REINO ALÉM DA IMAGINAÇÃO ✦
         </div>
+
+        <h1>
+          THE CRUEL
+          <span>PRINCE</span>
+        </h1>
+
+        <div class="divider">
+          <span></span> ❖ <span></span>
+        </div>
+
+        <p class="hero-description">
+          Bem-vinda a um mundo onde a beleza esconde perigos,
+          as palavras podem ser armas e as coroas têm um preço.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#story" class="button primary">DESCOBRIR O REINO</a>
+          <a href="#characters" class="button secondary">CONHECER PERSONAGENS</a>
+        </div>
+
+        <p class="dedication">
+          Uma experiência especial para Débora ♡
+        </p>
+
       </div>
 
-      <div class="vivienne-content reveal">
-        <span class="eyebrow">A FAVORITA DE DÉBORA</span>
-        <h2>LUNA</h2>
-        <div class="ornament">✧ ━━━━━ ❖</div>
+      <div class="hero-bottom">
+        <span>ELFHAME</span>
+        <span>✦</span>
+        <span>THE WORLD OF FAERIES</span>
+      </div>
+
+      <a href="#story" class="scroll-indicator">
+        <span>SCROLL</span>
+        ↓
+      </a>
+
+    </section>
+
+    <!-- INTRODUÇÃO -->
+
+    <section class="intro section" id="story">
+
+      <div class="section-heading reveal">
+        <span class="eyebrow">THE BEGINNING</span>
+        <h2>Um mundo de <i>encantos</i></h2>
+        <div class="divider"><span></span> ❖ <span></span></div>
+      </div>
+
+      <div class="intro-grid">
+
+        <div class="intro-image reveal">
+          <div class="image-placeholder forest-image">
+            <span>❧</span>
+            <p>THE FORBIDDEN FOREST</p>
+          </div>
+        </div>
+
+        <div class="intro-text reveal">
+
+          <span class="gold-label">A HISTÓRIA</span>
+
+          <h3>Entre a magia e a crueldade.</h3>
+
+          <p>
+            O Príncipe Cruel, escrito por Holly Black, apresenta
+            um universo de fantasia habitado por seres feéricos,
+            disputas políticas, intrigas e segredos.
+          </p>
+
+          <p>
+            A história acompanha Jude Duarte, uma garota humana
+            criada no Reino das Fadas. Em meio a uma sociedade
+            que a despreza por sua humanidade, Jude deseja
+            conquistar seu próprio espaço em um mundo perigoso.
+          </p>
+
+          <p>
+            Entre jogos de poder, rivalidades e alianças
+            inesperadas, cada escolha pode mudar o destino
+            de quem deseja sobreviver em Elfhame.
+          </p>
+
+          <a href="#characters" class="text-link">
+            EXPLORAR PERSONAGENS →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- LIVRO -->
+
+    <section class="book-section section">
+
+      <div class="book-content reveal">
+
+        <span class="eyebrow">THE FOLK OF THE AIR</span>
+
+        <h2>O Príncipe Cruel</h2>
 
         <p>
-          Selvagem, independente e impossível de ignorar.
-          Vivienne representa um espírito livre que não nasceu
-          para viver preso às regras de ninguém.
+          O primeiro livro da trilogia O Povo do Ar,
+          de Holly Black.
         </p>
 
-        <p class="italic">
-          "Nem toda coroa representa uma rainha.
-          Algumas pessoas nasceram para ser livres."
+        <div class="book-details">
+          <div>
+            <span>01</span>
+            <small>SÉRIE</small>
+            <strong>O Povo do Ar</strong>
+          </div>
+
+          <div>
+            <span>✦</span>
+            <small>AUTORA</small>
+            <strong>Holly Black</strong>
+          </div>
+
+          <div>
+            <span>♛</span>
+            <small>UNIVERSO</small>
+            <strong>Elfhame</strong>
+          </div>
+        </div>
+
+        <p class="small-note">
+          Esta página é um projeto de fã, sem vínculo oficial
+          com a autora ou editora.
         </p>
 
-        <span class="signature">— Para Débora, com magia.</span>
       </div>
+
     </section>
 
-    <section class="kingdom" id="universo">
-      <div class="reveal">
-        <span class="eyebrow">BEM-VINDA A ELFHAME</span>
-        <h2>O Reino Encantado</h2>
-        <p>Um mundo de beleza perigosa, segredos antigos e magia.</p>
+    <!-- PERSONAGENS -->
+
+    <section class="characters section" id="characters">
+
+      <div class="section-heading reveal">
+
+        <span class="eyebrow">THE COURT OF ELFHAME</span>
+
+        <h2>Conheça os <i>personagens</i></h2>
+
+        <p>
+          Cada personagem possui sua própria história,
+          personalidade e lugar nesse reino.
+        </p>
+
+        <div class="divider"><span></span> ❖ <span></span></div>
+
+      </div>
+
+      <div class="character-tools">
+
+        <input
+          type="search"
+          id="characterSearch"
+          placeholder="Pesquisar personagem..."
+          aria-label="Pesquisar personagem"
+        >
+
+        <div class="filters" id="filters">
+          <button class="filter active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="protagonistas">Protagonistas</button>
+          <button class="filter" data-filter="reino">Reino</button>
+          <button class="filter" data-filter="familia">Família</button>
+        </div>
+
+      </div>
+
+      <div class="character-grid" id="characterGrid">
+
+        <article class="character-card reveal"
+          data-name="jude duarte"
+          data-category="protagonistas"
+          data-character="jude">
+
+          <div class="character-art jude-art">
+            <span>J</span>
+            <small>THE HUMAN</small>
+          </div>
+
+          <div class="character-info">
+            <span class="character-type">PROTAGONISTA</span>
+            <h3>Jude Duarte</h3>
+            <p>Ambição, coragem e determinação.</p>
+            <button class="details-button" data-open="jude">
+              ABRIR FICHA →
+            </button>
+          </div>
+
+        </article>
+
+        <article class="character-card reveal"
+          data-name="cardan greenbriar"
+          data-category="protagonistas reino"
+          data-character="cardan">
+
+          <div class="character-art cardan-art">
+            <span>C</span>
+            <small>THE PRINCE</small>
+          </div>
+
+          <div class="character-info">
+            <span class="character-type">REINO DE ELFHAME</span>
+            <h3>Cardan Greenbriar</h3>
+            <p>Um príncipe cercado por conflitos.</p>
+            <button class="details-button" data-open="cardan">
+              ABRIR FICHA →
+            </button>
+          </div>
+
+        </article>
+
+        <article class="character-card reveal"
+          data-name="vivienne vivi"
+          data-category="familia"
+          data-character="vivienne">
+
+          <div class="character-art vivi-art">
+            <span>V</span>
+            <small>THE WILD HEART</small>
+          </div>
+
+          <div class="character-info">
+            <span class="character-type favorite">FAVORITA DA DÉBORA ♡</span>
+            <h3>Vivienne</h3>
+            <p>Independência e espírito livre.</p>
+            <button class="details-button" data-open="vivienne">
+              ABRIR FICHA →
+            </button>
+          </div>
+
+        </article>
+
+        <article class="character-card reveal"
+          data-name="taryn duarte"
+          data-category="familia protagonistas"
+          data-character="taryn">
+
+          <div class="character-art taryn-art">
+            <span>T</span>
+            <small>THE SISTER</small>
+          </div>
+
+          <div class="character-info">
+            <span class="character-type">FAMÍLIA DUARTE</span>
+            <h3>Taryn Duarte</h3>
+            <p>Prudência, escolhas e segredos.</p>
+            <button class="details-button" data-open="taryn">
+              ABRIR FICHA →
+            </button>
+          </div>
+
+        </article>
+
+        <article class="character-card reveal"
+          data-name="madoc"
+          data-category="reino familia"
+          data-character="madoc">
+
+          <div class="character-art madoc-art">
+            <span>M</span>
+            <small>THE GENERAL</small>
+          </div>
+
+          <div class="character-info">
+            <span class="character-type">REINO DE ELFHAME</span>
+            <h3>Madoc</h3>
+            <p>Guerra, estratégia e autoridade.</p>
+            <button class="details-button" data-open="madoc">
+              ABRIR FICHA →
+            </button>
+          </div>
+
+        </article>
+
+      </div>
+
+      <p class="empty-message" id="emptyMessage">
+        Nenhum personagem encontrado.
+      </p>
+
+    </section>
+
+    <!-- FICHA INTERATIVA -->
+
+    <div class="modal" id="characterModal" aria-hidden="true">
+
+      <div class="modal-content">
+
+        <button class="modal-close" id="modalClose" aria-label="Fechar">
+          ✕
+        </button>
+
+        <span class="eyebrow">CHARACTER ARCHIVE</span>
+
+        <div class="modal-symbol" id="modalSymbol">V</div>
+
+        <span class="character-type" id="modalType"></span>
+
+        <h2 id="modalName">Personagem</h2>
+
+        <p id="modalDescription"></p>
+
+        <div class="modal-data">
+          <div>
+            <span>PERSONALIDADE</span>
+            <strong id="modalPersonality"></strong>
+          </div>
+
+          <div>
+            <span>CARACTERÍSTICA</span>
+            <strong id="modalTrait"></strong>
+          </div>
+
+          <div>
+            <span>UNIVERSO</span>
+            <strong>O Povo do Ar</strong>
+          </div>
+        </div>
+
+        <button class="button primary" id="modalDone">
+          VOLTAR AO REINO
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- VIVIENNE -->
+
+    <section class="vivienne-section section" id="vivienne">
+
+      <div class="vivienne-visual reveal">
+
+        <div class="vivienne-frame">
+
+          <div class="v-decoration">❧</div>
+
+          <div class="v-letter">V</div>
+
+          <div class="v-name">VIVIENNE</div>
+
+          <div class="v-subtitle">THE WILD HEART</div>
+
+        </div>
+
+      </div>
+
+      <div class="vivienne-text reveal">
+
+        <span class="eyebrow">A PERSONAGEM ESPECIAL</span>
+
+        <h2>Vivienne <i>Duarte</i></h2>
+
+        <div class="divider"><span></span> ❖ <span></span></div>
+
+        <p>
+          Vivienne é uma das personagens marcantes do universo
+          de O Povo do Ar. Filha de Madoc e irmã mais velha
+          de Jude e Taryn, ela possui uma ligação importante
+          com a família Duarte.
+        </p>
+
+        <p>
+          Seu espírito independente e sua relação com o mundo
+          humano ajudam a torná-la uma personagem interessante
+          dentro da história.
+        </p>
+
+        <div class="v-quote">
+          "A liberdade também pode ser uma forma de poder."
+        </div>
+
+        <a href="#characters" class="button primary">
+          VER FICHA COMPLETA
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- REINO -->
+
+    <section class="kingdom section" id="kingdom">
+
+      <div class="section-heading reveal">
+
+        <span class="eyebrow">WELCOME TO ELFHAME</span>
+
+        <h2>O Reino das <i>Fadas</i></h2>
+
+        <p>
+          Um lugar fascinante, onde beleza e perigo caminham juntos.
+        </p>
+
       </div>
 
       <div class="kingdom-grid">
+
         <article class="kingdom-card reveal">
-          <span>♛</span>
-          <h3>As Coroas</h3>
-          <p>Poder, ambição e disputas pelo trono.</p>
+          <span class="kingdom-icon">♛</span>
+          <h3>A Corte</h3>
+          <p>
+            O centro das disputas de poder, alianças e decisões
+            que podem mudar o reino.
+          </p>
         </article>
 
         <article class="kingdom-card reveal">
-          <span>❧</span>
+          <span class="kingdom-icon">❧</span>
           <h3>As Florestas</h3>
-          <p>Onde cada caminho esconde um mistério.</p>
+          <p>
+            A natureza feérica é misteriosa e cheia de
+            maravilhas e perigos.
+          </p>
         </article>
 
         <article class="kingdom-card reveal">
-          <span>✧</span>
+          <span class="kingdom-icon">✦</span>
           <h3>A Magia</h3>
-          <p>Um universo onde o impossível ganha vida.</p>
+          <p>
+            Um universo de encantamentos, tradições e
+            regras diferentes das humanas.
+          </p>
         </article>
+
       </div>
+
     </section>
 
-    <section class="final-section reveal">
-      <span class="eyebrow">PARA SEMPRE NO REINO</span>
-      <h2>Some stories never fade.</h2>
-      <p>Feito especialmente para Débora.</p>
-      <span class="final-symbol">❖</span>
+    <!-- MECÂNICA / EXPERIÊNCIA -->
+
+    <section class="experience section" id="game">
+
+      <div class="section-heading reveal">
+
+        <span class="eyebrow">YOUR DESTINY</span>
+
+        <h2>Seu destino em <i>Elfhame</i></h2>
+
+        <p>
+          Nem todos conseguem sobreviver a um reino de intrigas.
+          Descubra que tipo de visitante você seria.
+        </p>
+
+      </div>
+
+      <div class="game-box reveal" id="gameBox">
+
+        <div class="game-top">
+          <span>✦ THE ROYAL TEST ✦</span>
+          <span id="questionCounter">PERGUNTA 1 / 4</span>
+        </div>
+
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+
+        <h3 id="questionTitle">
+          Você acaba de chegar a Elfhame. O que faria primeiro?
+        </h3>
+
+        <div class="answers" id="answers">
+
+          <button class="answer" data-value="coragem">
+            Procuraria conhecer o reino e seus segredos.
+          </button>
+
+          <button class="answer" data-value="estrategia">
+            Tentaria entender quem realmente possui o poder.
+          </button>
+
+          <button class="answer" data-value="liberdade">
+            Exploraria tudo sem aceitar ordens.
+          </button>
+
+          <button class="answer" data-value="magia">
+            Procuraria descobrir os encantamentos do lugar.
+          </button>
+
+        </div>
+
+        <div class="game-result" id="gameResult" hidden>
+
+          <span class="result-symbol">♛</span>
+
+          <span class="eyebrow">SEU DESTINO FOI REVELADO</span>
+
+          <h3 id="resultTitle"></h3>
+
+          <p id="resultDescription"></p>
+
+          <button class="button primary" id="restartGame">
+            JOGAR NOVAMENTE
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- SEGREDOS / SPOILERS -->
+
+    <section class="secrets section">
+
+      <div class="section-heading reveal">
+
+        <span class="eyebrow">BEHIND THE MAGIC</span>
+
+        <h2>Os segredos do <i>reino</i></h2>
+
+        <p>
+          Alguns conhecimentos exigem coragem.
+        </p>
+
+      </div>
+
+      <div class="secret-box reveal">
+
+        <div class="secret-icon">✧</div>
+
+        <h3>Área de spoilers</h3>
+
+        <p>
+          Quer explorar informações além da apresentação inicial?
+        </p>
+
+        <button class="button secondary" id="spoilerToggle">
+          REVELAR CONTEÚDO
+        </button>
+
+        <div class="spoiler-content" id="spoilerContent" hidden>
+          <h3>O Povo do Ar</h3>
+          <p>
+            A trilogia acompanha as consequências das escolhas
+            de Jude e sua relação com o poder em Elfhame.
+            As continuações ampliam as intrigas políticas,
+            os conflitos familiares e as alianças do reino.
+          </p>
+          <p>
+            Explore os livros na ordem de publicação para
+            descobrir os acontecimentos sem perder a sequência.
+          </p>
+          <a href="#characters" class="text-link">
+            VOLTAR AOS PERSONAGENS →
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FINAL -->
+
+    <section class="ending">
+
+      <div class="ending-content reveal">
+
+        <span class="eyebrow">A WORLD MADE FOR YOU</span>
+
+        <h2>Some kingdoms<br><i>never disappear.</i></h2>
+
+        <div class="divider"><span></span> ❖ <span></span></div>
+
+        <p>
+          Para Débora, que encontrou um reino inteiro
+          para chamar de favorito.
+        </p>
+
+        <span class="ending-crown">♛</span>
+
+        <a href="#home" class="button primary">
+          VOLTAR AO INÍCIO ↑
+        </a>
+
+      </div>
+
     </section>
 
   </main>
 
   <footer>
-    <p>THE FAERIE WORLD © <span id="year"></span></p>
-    <p>Um pequeno universo dedicado à Débora ♡</p>
-    <p class="footer-note">Projeto de fã, sem vínculo oficial com a autora ou editora.</p>
+
+    <a href="#home" class="footer-brand">THE CRUEL PRINCE</a>
+
+    <p>Um universo especial para Débora ♡</p>
+
+    <p class="copyright">
+      © <span id="year"></span> THE CRUEL PRINCE FAN PROJECT
+    </p>
+
+    <p class="copyright">
+      Projeto não oficial. Personagens e obra pertencem aos seus respectivos criadores.
+    </p>
+
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
